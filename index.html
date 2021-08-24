@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+    <style>
+        h3{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="row valign-wrapper">
+        <div class="col s8 offset-s2 ">
+            <div id="message-form-2"class="card-panel hide">
+                <h3>Your secret message is</h3>
+                <h5 id="message-output">
+                </h5>
+                <div>
+                    <a href="./index.html">Create your own secret message</a>
+                </div>
+            </div>
+            <div id="message-form-1"class="card-panel">
+                <form>
+                    <label>
+                        Enter a secret message
+                    </label>
+                    <input type="text" id="message-input">
+                    <input type="submit" value="Create" class="btn"></input>
+                </form>
+            </div>
+            <div id="link-form" class="card-panel hide">
+                <div>
+                    <p>Share this link with your friend</p>
+                    <input id="link-input"> 
+                </div>
+                <div>
+                    <a href="./index.html">home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
